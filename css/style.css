@@ -15,6 +15,7 @@
   --main-color: #033a80;
   --bg-color: #fff;
   --text-color: #0f0c27;
+  --btn-back-color: rgb(52, 165, 99);
   --hover: #822DE8;/* hsl(260, 100%, 51%);*/
  
   --big-font: 2.4rem;
@@ -123,6 +124,14 @@ body {
 }
 .btn-post1:hover {
   background: #D99CA7;
+}
+
+.btn-back {
+  display: inline-block;
+  background: var(--btn-back-color);
+  color: #fff;
+  padding: 0.7rem 1.3rem;
+  border-radius: 0.5rem;
 }
  
 /*=================About section====================*/
