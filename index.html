@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyPortfolio</title>
+        <!--favicon-->
+        <link rel="icon" href="/img/favicon.ico">
+        <link rel="stylesheet" href="./css/style.css">
+        <!--icon cdn link-->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css">
+        <script src="/js/script.js"></script>
+    </head>
+    <body>
+        <!--navigation bar-->
+        <header>
+            <!--logo-->
+            <a href="#" class="logo">Clean Coding</a>
+            <!--button for responsive device-->
+            <div class="bx bx-menu" id="menu-icon"></div>
+
+            <!--menu items-->
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#porfolio">Porfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!--darkmode button-->
+                <div class="bx bx-moon" id="darkmode"></div>
+            </ul>
+        </header>
+
+        <!--home section-->
+
+        <section class="home" id="home">
+            <div class="social">
+                <a href="https://github.com/Eniko988?tab=repositories" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/enik%C5%91-oros-szebenyi-dmd-723b061b7/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            </div>
+            <!--home image-->
+            <div class="home-img">
+                <img src="/img/coding.jpg" alt="">
+            </div>
+            <!--home content-->
+            <div class="home-text">
+                <span>Hello, I'm</span>
+                <h1>Enikő Oros-Szebenyi</h1>
+                <h2>Junior Frontend Developer</h2>
+                <p>I am a highly passionate individual who thrives upon seeking new challenges through my career as a junior developer. 
+                    My initial years of studying in the developing industry push me to go further in discovering more things in it.
+                    Of course, I am motivated to join a group of seasoned and experienced Frontend developers  in the industry respectively.</p>
+                <!--contact button-->
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </section>
+        <!--about section-->
+        <section class="about" id="about">
+            <!--heading-->
+            <div class="heading">
+                <h2>About Me</h2>
+                <span>Introduction</span>
+            </div>
+            <div class="about-container">
+                <!--image-->
+                <div class="about-img">
+                    <img src="/img/prof11.jpg">
+                </div>
+                <!--text-->
+                <div class="about-text">
+                    <p></p>
+                    <!--some information-->
+                    <div class="information">
+                        <!--box1-->
+                        <div class="info-box">
+                            <i class="bx bxs-user"></i>
+                            <span>Enikő Oros-Szebenyi</span>
+                        </div>
+                        <!--box2-->
+                        <div class="info-box">
+                            <i class="bx bxs-phone"></i>
+                            <span>0630 4402728</span>
+                        </div>
+                        <!--box3-->
+                        <div class="info-box">
+                            <i class="bx bxs-envelope"></i>
+                            <span><a href="mailto:enikoszebenyi@gmail.com" id ="email">enikoszebenyi@gmail.com</a></span>
+                        </div>
+                    </div>
+                    <!--btn-->
+                    <a href="/img/Brown & Cream Professional Web Developer Resume.pdf" class="btn">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills section-->
+        <section class="skills" id="skills">
+            <div class="heading">
+                <h2>Skills</h2>
+                <span>My Skills</span>
+            </div>
+
+            <!--skills content-->
+            <div class="skills-container">
+                <div class="bars">
+                    <!--box-1-->
+                    <div class="bars-box">
+                        <h3>JavaScript,TypeScript</h3>
+                        <span>90%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar js-bar"></div>
+                    </div>
+                    <!--box-2-->
+                    <div class="bars-box">
+                        <h3>Angular</h3>
+                        <span>90%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar html-bar"></div>
+                    </div>
+                    <!--box3-->
+                    <div class="bars-box">
+                        <h3>CSS/SCSS</h3>
+                        <span>80%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar css-bar"></div>
+                    </div>
+                    <!--box4-->
+                    <div class="bars-box">
+                        <h3>HTML5</h3>
+                        <span>80%</span>
+                        <div class="light-bar"></div>
+                        <div class="percent-bar node-bar"></div>
+                    </div>
+                </div>
+                <!--image-->
+                <div class="skills-img">
+                    <img src="/img/hero1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!--Porfolio section-->
+        <section class="porfolio" id="porfolio">
+            <div class="heading">
+                <h2>Porfolio</h2>
+            </div>
+            <div class="projects">
+                <span>Angular projects with JSON-server(fake)</span>
+            </div>
+            <div class="porfolio-content">
+                <div class="porfolio-img">
+                    <img src="./img/gymlove.png" alt="">
+                    <h6 class="post-title">Fitness manager with Angular</h6>
+                    <p class="post-intro">
+                        Register to the gym, choose trainer,and select season ticket.
+                    </p>
+                    <a href="./posts/post-fitness-manager.html" target="_blank">Read more</a>
+                </div>
+                <div class="porfolio-img">
+                    <img src="./img/veg.png" alt="">
+                    <h6 class="post-title">Product manager with Angular</h6>
+                    <p class="post-intro">
+                        Make your own product list with category fruits,vegetables and meats
+                    </p>
+                    <a href="./posts/post-product.html" target="_blank">Read more</a>
+                </div>
+                <div class="porfolio-img">
+                    <img src="./img/quiz.png" alt="">
+                    <h6 class="post-title">Quiz game with Angular</h6>
+                    <p class="post-intro">
+                       Test your programming skills.
+                    </p>
+                    <a href="./posts/post-quiz-game.html" target="_blank">Read more</a>
+                </div>
+            </div>
+           
+            <div class="projects">
+                <span>Webpack projects with API</span>
+            </div>
+            <div class="porfolio-content">
+                <div class="porfolio-img">
+                    <img src="./img/weather.png" alt="">
+                    <h6 class="post-title">Weather prognosis with Webpack</h6>
+                    <p class="post-intro">
+                        Weather forecast all over the world
+                    </p>
+                    <a href="./posts/post-weather.html" target="_blank">Read more</a>
+                </div>
+                <div class="porfolio-img">
+                    <img src="./img/stat.png" alt="">
+                    <h6 class="post-title">Covid statistic with Webpack</h6>
+                    <p class="post-intro">
+                        Covid statistic with webpack
+                    </p>
+                    <a href="./posts/post-stat.html" target="_blank">Read more</a>
+                </div>
+            </div>
+            <div class="projects">
+                <span>Native JS projects</span>
+            </div>
+            <div class="porfolio-content">
+                <div class="porfolio-img">
+                    <img src="./img/todolist.png" alt="todo">
+                    <h6 class="post-title">Todo List with native JS|HTML|CSS</h6>
+                    <p class="post-intro">Application to manage your activity.
+                        You can add, remove,select todos list, and personalize themes.
+                    </p>
+                    <a href="./posts/post-todo.html" target="_blank">Read more</a>
+                </div>
+                <div class="porfolio-img">
+                    <img src="./img/meditation.png" alt="">
+                    <h6 class="post-title">Responsive Meditation App
+                        with native JS|HTML|CSS
+                    </h6>
+                    <p class="post-intro">Relax and listen music where you want</p>
+                    <a href="./posts/post-meditation.html" target="_blank">Read more</a>
+                </div>
+            </div>
+        </section>
+        <!--Contact section-->
+
+        <section class="contact" id="contact">
+            <!--heading-->
+            <div class="heading">
+                <h2>Contact me</h2>
+            </div>
+            <div class="contact-container">
+                <!--image-->
+                <div class="contact-img">
+                    <img src="/img/group.jpg">
+                </div>
+                <!--text-->
+                <div class="contact-text">
+                    <p></p>
+                    <!--some information-->
+                    <div class="information">
+                        <!--box1-->
+                        <div class="info-box">
+                            <i class="bx bxs-user"></i>
+                            <span>Enikő Oros-Szebenyi</span>
+                        </div>
+                        <!--box2-->
+                        <div class="info-box">
+                            <i class="bx bxs-phone"></i>
+                            <span>0630 4402728</span>
+                        </div>
+                        <!--box3-->
+                        <div class="info-box">
+                            <i class="bx bxs-envelope"></i>
+                            <span><a  href="mailto:enikoszebenyi@gmail.com" id ="email">enikoszebenyi@gmail.com</a></span>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Footer section-->
+                <div class="footer">
+                    <h2>Clean Coding</h2>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/dr-oros-szebenyi-enik%C5%91-723b061b7/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                        <a href="https://github.com/Eniko988" target="_blank"><i class="bx bxl-github"></i></a>
+                    </div>
+                </div>
+
+            </body>
+        </html>
