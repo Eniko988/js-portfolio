@@ -126,14 +126,6 @@ body {
   background: #D99CA7;
 }
 
-.btn-back {
-  display: inline-block;
-  background: var(--btn-back-color);
-  color: #fff;
-  padding: 0.7rem 1.3rem;
-  border-radius: 0.5rem;
-}
- 
 /*=================About section====================*/
 .about-container {
   display: grid;
