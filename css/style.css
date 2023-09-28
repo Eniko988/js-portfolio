@@ -16,6 +16,7 @@
   --text-color: #0f0c27;
   --btn-back-color: rgb(52, 165, 99);
   --hover: #822DE8;
+  --project-hover: #F2E0D0;
   --big-font: 2rem;
   --medium-font: 1.8rem;
   --p-font: 0.941rem;
@@ -30,11 +31,12 @@ body.active {
   --text-color: #fff;
   --bg-color: #0f0c27;
   --main-color: rgb(52, 165, 99);
-  --hover: rgb(117, 179, 143);
+  --hover: rgb(156, 191, 170);
+  --project-hover: #822DE8;;
 }
 
 #email {
-  color: var(--contact-color);
+  color: var(--text-color);
 }
 
 section {
@@ -61,7 +63,7 @@ body {
 
 .heading span {
   font-size: var(--p-font);
-  color: var(--contact-color);
+  color: var(--text-color);
 }
 
 header {
@@ -261,25 +263,29 @@ header {
   border-radius: 0.5rem;
 }
 
-.html-bar {
-  width: 94%;
+.js-bar {
+  width: 95%;
+}
+
+.angular-bar {
+  width: 80%;
+}
+
+.rxjs-bar {
+  width: 75%;
 }
 
 .css-bar {
-  width: 84%;
+  width: 90%;
 }
 
-.js-bar {
-  width: 74%;
-}
-
-.node-bar {
-  width: 60%;
+.HTML5-bar {
+  width: 95%;
 }
 
 .projects {
   text-align: center;
-  color: var(--contact-color);
+  color: var(--text-color);
 }
 
 .porfolio-content {
@@ -314,8 +320,14 @@ header {
 }
 
 .porfolio-img a {
-  color: var(--contact-color);
+  color: var(--text-color);
   font-weight: 500;
+}
+
+.porfolio-img a:hover {
+  background-color: var(--project-hover);
+  border-radius:5px;
+  padding: 8px;
 }
 
 .porfolio-img img:hover {
