@@ -33,7 +33,7 @@ body.active {
   --bg-color: #0f0c27;
   --main-color: rgb(52, 165, 99);
   --hover: rgb(156, 191, 170);
-  --project-hover: rgb(219, 247, 230);;
+  --project-hover: rgb(24, 107, 57);;
   --border-cover-btn: 1px solid #0bc737;
 }
 
@@ -439,6 +439,7 @@ img {
 .main-container {
   width: 1200px;
   margin: 0 auto;
+  margin-top: 12px;
 }
 
 .text-container {
