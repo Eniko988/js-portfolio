@@ -12,6 +12,7 @@
 
 :root {
   --main-color: #033a80;
+  --border-cover-btn: 1px solid #180240;
   --bg-color: #fff;
   --text-color: #0f0c27;
   --btn-back-color: rgb(52, 165, 99);
@@ -32,7 +33,8 @@ body.active {
   --bg-color: #0f0c27;
   --main-color: rgb(52, 165, 99);
   --hover: rgb(156, 191, 170);
-  --project-hover: #822DE8;;
+  --project-hover: rgb(219, 247, 230);;
+  --border-cover-btn: 1px solid #0bc737;
 }
 
 #email {
@@ -139,11 +141,14 @@ header {
 
 .home-text h1 {
   font-size: var(--big-font);
+  text-align: center;
 }
 
 .home-text h2 {
   font-size: 1.1rem;
   font-weight: 400;
+  font-style: italic;
+  text-align: center;
 }
 
 .home-text p {
@@ -178,6 +183,19 @@ header {
 .btn:hover {
   background: var(--hover);
 }
+
+.btn-cover{
+  display: inline-block;
+  color: var(--main-color);
+  border: var(--border-cover-btn);
+  padding: 0.7rem 1.3rem;
+  border-radius: 0.5rem;
+}
+
+.btn-cover:hover{
+  background-color: var(--project-hover);
+}
+
 
 .about-container {
   display: grid;
