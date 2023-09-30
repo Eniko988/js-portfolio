@@ -13,15 +13,14 @@
 :root {
   --main-color: #033a80;
   --border-cover-btn: 1px solid #180240;
+  --btn-post:#403933;
   --bg-color: #fff;
   --text-color: #0f0c27;
-  --btn-back-color: rgb(52, 165, 99);
   --hover: #822DE8;
   --project-hover: #F2E0D0;
   --big-font: 2rem;
   --medium-font: 1.8rem;
   --p-font: 0.941rem;
-  --contact-color: #FF4C40;
   --light-bar-color: hsla(260, 100%, 44%, 0.4);
   --footer-color: #000;
   --footer-bg: #ebebeb;
@@ -196,6 +195,13 @@ header {
   background-color: var(--project-hover);
 }
 
+.btn-post{
+  display: inline-block;
+  background: var(--btn-post);
+  color: var(--bg-color);
+  padding: 0.7rem 1.3rem;
+  border-radius: 0.5rem;
+}
 
 .about-container {
   display: grid;
@@ -429,6 +435,7 @@ header {
 
 .img-container {
   max-width: 600px;
+  margin: 12px 0;
 }
 
 img {
@@ -439,13 +446,13 @@ img {
 .main-container {
   width: 1200px;
   margin: 0 auto;
-  margin-top: 12px;
 }
 
 .text-container {
-  background: #c3e5c2;
+  background: #F2EADF;
   border-radius: 8px;
   padding: 16px;
+  margin-top: 12px;
 }
 
 ul {
