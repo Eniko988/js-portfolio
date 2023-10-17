@@ -282,18 +282,18 @@ header {
 .angular-bar {
   width: 85%;
 }
-
-.rxjs-bar {
-  width: 85%;
+.node-bar {
+  width: 50%;
+}
+.mongo-bar {
+  width: 50%;
 }
 
 .css-bar {
   width: 90%;
 }
 
-.HTML5-bar {
-  width: 95%;
-}
+
 
 .projects {
   text-align: center;
