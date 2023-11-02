@@ -13,7 +13,7 @@
 :root {
   --main-color: #033a80;
   --border-cover-btn: 1px solid #180240;
-  --btn-post:#403933;
+  --btn-post: #403933;
   --bg-color: #fff;
   --text-color: #0f0c27;
   --hover: #822DE8;
@@ -32,7 +32,8 @@ body.active {
   --bg-color: #0f0c27;
   --main-color: rgb(52, 165, 99);
   --hover: rgb(156, 191, 170);
-  --project-hover: rgb(24, 107, 57);;
+  --project-hover: rgb(24, 107, 57);
+  ;
   --border-cover-btn: 1px solid #0bc737;
 }
 
@@ -183,7 +184,7 @@ header {
   background: var(--hover);
 }
 
-.btn-post{
+.btn-post {
   display: inline-block;
   background: var(--btn-post);
   color: var(--bg-color);
@@ -275,25 +276,25 @@ header {
   border-radius: 0.5rem;
 }
 
-.js-bar {
-  width: 95%;
-}
-
 .angular-bar {
   width: 85%;
 }
+
+.api-bar {
+  width: 75%;
+}
+
+.asp-bar {
+  width: 70%;
+}
+
 .node-bar {
-  width: 70%;
+  width: 60%;
 }
+
 .mongo-bar {
-  width: 70%;
+  width: 60%;
 }
-
-.css-bar {
-  width: 90%;
-}
-
-
 
 .projects {
   text-align: center;
@@ -338,7 +339,7 @@ header {
 
 .porfolio-img a:hover {
   background-color: var(--project-hover);
-  border-radius:5px;
+  border-radius: 5px;
   padding: 8px;
 }
 
